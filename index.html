@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">Portfolio</div>
+    <ul>
+      <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+      <li><a href="#" class="nav-link" data-page="about">About</a></li>
+      <li><a href="#" class="nav-link" data-page="skills">Skills</a></li>
+      <li><a href="#" class="nav-link" data-page="projects">Projects</a></li>
+      <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+      <li><a href="#" class="nav-link" data-page="login" id="loginNavBtn">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <div class="page active" id="home">
+    <section class="hero">
+      <div class="hero-content">
+  <img src="photo_2026-05-04_03-32-33.jpg"
+       alt="Profile "
+       style="width:150px; height:150px; border-radius:50%; border:4px solid #38bdf8; object-fit:cover;" />
+
+        <h1>Hi, I'm <span>Emebet</span></h1>
+        <p> my pationate Full Stack Developer</p>
+        <div class="hero-btns">
+          <a href="#" class="btn nav-link" data-page="about">About Me</a>
+          <a href="#" class="btn outline nav-link" data-page="contact">Hire Me</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ABOUT PAGE -->
+  <div class="page" id="about">
+    <section class="page-section">
+      <h2 class="page-title">About Me</h2>
+      <div class="about-container">
+        <div class="about-image">
+          <img src="photo_2026-05-04_03-32-33.jpg" alt="Profile Photo"/>
+        </div>
+        <div class="about-text">
+          <h3>Hi, I'm <span>Emebet</span></h3>
+          <p>I'm a passionate <strong>Full Stack Developer</strong> who loves building modern, responsive web applications from scratch.</p>
+          <p>I work with <strong>HTML, CSS, JavaScript, Node.js, Express ,java,phyton,php</strong> and <strong>MongoDB Atlas</strong> to deliver clean and scalable solutions.</p>
+          <ul class="about-details">
+            <li><span>Name:</span> Emebet</li>
+            <li><span>Email:</span>emebt12321@gimal.com</li>
+            <li><span>Location:</span> Ethiopia,ataye</li>
+            <li><span>Available:</span> Open to work</li>
+          </ul>
+          <a href="#" class="btn nav-link" data-page="contact">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SKILLS PAGE -->
+  <div class="page" id="skills">
+    <section class="page-section">
+      <h2 class="page-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h4>HTML</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
+          <span>95%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h4>CSS</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+          <span>90%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h4>JavaScript</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          <span>85%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">☕</div>
+          <h4>Java</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+          <span>80%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">�</div>
+          <h4>PHP</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+          <span>75%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🐍</div>
+          <h4>Python</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          <span>85%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🟢</div>
+          <h4>Node.js</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+          <span>80%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🚀</div>
+          <h4>Express.js</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+          <span>80%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🍃</div>
+          <h4>MongoDB</h4>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+          <span>75%</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- PROJECTS PAGE -->
+  <div class="page" id="projects">
+    <section class="page-section">
+      <h2 class="page-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-tag">Full Stack</div>
+          <h3>Inventory Management System</h3>
+          <p>A full stack inventory management system to track products, stock levels, and orders.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span>
+          </div>
+          <a href="https://github.com/emu1272/inventery-managment-system" target="_blank" class="btn small">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Frontend</div>
+          <h3>Calculator</h3>
+          <p>A clean and responsive calculator app built with vanilla JavaScript.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/emu1272/-calculator" target="_blank" class="btn small">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Portfolio</div>
+          <h3>Personal Portfolio</h3>
+          <p>A personal portfolio website showcasing projects, skills, and contact information.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/emu1272/-personal-portfolio" target="_blank" class="btn small">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Full Stack</div>
+          <h3>Vital Information Management System</h3>
+          <p>A system to manage and store vital personal or medical information securely.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span>
+          </div>
+          <a href="https://github.com/emu1272/vital-information-managment-system" target="_blank" class="btn small">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- CONTACT PAGE -->
+  <div class="page" id="contact">
+    <section class="page-section">
+      <h2 class="page-title">Contact Me</h2>
+      <form id="contactForm">
+        <input type="text"  id="name"    placeholder="Your Name"    required/>
+        <input type="email" id="email"   placeholder="Your Email"   required/>
+        <textarea           id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="formStatus"></p>
+    </section>
+  </div>
+
+  <!-- LOGIN PAGE -->
+  <div class="page" id="login">
+    <section class="page-section">
+      <h2 class="page-title">Admin Login</h2>
+      <form id="loginForm">
+        <input type="text"     id="loginUser" placeholder="Username" required/>
+        <input type="password" id="loginPass" placeholder="Password" required/>
+        <button type="submit" class="btn">Login</button>
+      </form>
+      <p id="loginStatus"></p>
+    </section>
+  </div>
+
+  <!-- MESSAGES ADMIN PAGE -->
+  <div class="page" id="messages">
+    <section class="page-section">
+      <h2 class="page-title">Received Messages</h2>
+      <div id="messagesContainer">
+        <p style="text-align:center;color:#64748b;">Loading messages...</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 emebet. All rights reserved. &nbsp;|&nbsp;
+      <a href="https://github.com/emu1272" target="_blank" style="color:#38bdf8;text-decoration:none;">GitHub Profile</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
